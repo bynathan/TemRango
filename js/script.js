@@ -3,10 +3,10 @@
 const navbarInfosOptions = document.querySelectorAll('.navbar-infos-options');
 
 navbarInfosOptions[0].addEventListener('click', () => {
-    navbarInfosOptions[0].classList.add('selected')
-    navbarInfosOptions[1].classList.remove('selected')
-    navbarInfosOptions[2].classList.remove('selected')
-})
+    navbarInfosOptions[0].classList.add('selected');
+    navbarInfosOptions[1].classList.remove('selected');
+    navbarInfosOptions[2].classList.remove('selected');
+});
 
 navbarInfosOptions[1].addEventListener('click', () => {
     navbarInfosOptions[1].classList.add('selected');
@@ -61,4 +61,27 @@ cardButton.forEach((i) => {
     card[1].classList.remove('card-selected');
     card[0].classList.remove('card-selected');
     })
-})
+});
+
+// MENU HAMBURGUER
+
+const menuHamb = document.getElementById('menu-container');
+const containerMenuHamb = document.getElementsByClassName('menu-hamb')[0];
+const navbarInfos = document.getElementsByClassName('navbar-infos')[0];
+const navbarButtons = document.getElementsByClassName('navbar-buttons')[0];
+const navbar = document.getElementById('navbar');
+const body = document.getElementById('body')
+const main = document.getElementById('main')
+const section = document.getElementById('section')
+const footer = document.getElementById('footer')
+
+menuHamb.addEventListener('click', () => {
+    containerMenuHamb.classList.toggle('on');
+    navbarButtons.classList.toggle('on');
+    navbarInfos.classList.toggle('on');
+    navbar.classList.toggle('on');
+    body.classList.toggle('on');
+    main.classList.toggle('scroll');
+    section.classList.toggle('scroll');
+    footer.classList.toggle('scroll');
+});

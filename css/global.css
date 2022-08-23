@@ -18,3 +18,15 @@ main{
 html{
     scroll-behavior: smooth;
 }
+
+#main.scroll{
+    display: none;
+}
+
+#section.scroll{
+    display: none;
+}
+
+#footer.scroll{
+    display: none;
+}

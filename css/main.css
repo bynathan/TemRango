@@ -187,22 +187,29 @@
 
 /* RECOMENDADO */
 
+.container-recomend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .recomended{
     display: flex;
     align-items: center;
     background-color: var(--green2-color-05cb95);
     border-radius: 15px 15px 0px 0px;
-    width: 295px;
+    outline: 8px solid var(--green2-color-05cb95);
+    width: 280px;
     height: 56px;
     z-index: -1;
-    margin-left: 586px;
-    position: absolute;
     top: 484px;
+    position: absolute;
 }
 
 .recomended h1{
-    margin-left: 89px;
-    margin-bottom: 5px;
+    margin-left: 78px;
+    margin-bottom: 10px;
     font-size: 14px;
     line-height: 22px;
     font-family: var(--font-family-roboto);
@@ -213,11 +220,11 @@
 
 .recomended svg{
     margin-left: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
 }
 
 .card.recomended-card{
-    width: 279px;
+    width: 280px;
     height: 400px;
     outline: 8px solid var(--green2-color-05cb95);
     border-radius: 15px;
@@ -301,4 +308,9 @@
     font-weight: var(--font-weight-normal);
     color: var(--gray2-color-949494);
     cursor: context-menu;
+}
+
+.main-infos-container{
+    display: flex;
+    flex-direction: row;
 }
