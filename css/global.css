@@ -19,14 +19,10 @@ html{
     scroll-behavior: smooth;
 }
 
-#main.scroll{
-    display: none;
-}
-
-#section.scroll{
-    display: none;
-}
-
-#footer.scroll{
-    display: none;
+.background.on{
+    z-index: 1;
+    position: absolute;
+    height: 5000px;
+    width: 765px;
+    background-color: white;
 }
