@@ -1,0 +1,129 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+    height: 97px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* INFOS */
+
+.navbar-infos{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.navbar-infos a{
+    text-decoration: none;
+    color: var(--dark-color-292f31);
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-normal);
+    font-size: 16px;
+}
+
+.selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 90px;
+    padding-top: 10px;
+}
+
+.selected span{
+    padding-top: 8.11px;
+    color: var(--green1-color-EFFBF7);
+}
+
+.navbar-infos-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 92px;
+    border: 1px solid #05cb9500;
+    border-radius: 0px 0px 15px 15px;
+    transition: border 0.3s;
+    cursor: pointer;
+}
+
+.navbar-infos-options.selected{
+    width: 100px;
+    height: 92px;
+    cursor: pointer;
+}
+
+.navbar-infos-options a{
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.navbar-infos-options svg{
+    display: none;
+}
+
+.navbar-infos-options.selected svg{
+    display: flex;
+    margin-top: 8px;
+}
+
+.navbar-infos-options.selected{
+    background-color: var(--green2-color-05cb95);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.navbar-infos-options.selected a{
+    color: var(--green1-color-EFFBF7);
+}
+
+/* LOGO */
+
+#navbar img{
+    margin-top: 26px;
+    cursor: pointer;
+    margin-right: 27px;
+}
+
+/* BUTTONS */
+
+.navbar-buttons{
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-button-1{
+    margin-left: 10px;
+    color: var(--dark-color-292f31);
+    background-color: var(--white2-color-f1f1f1);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 38px 14px 38px;
+    cursor: pointer;
+    font-family: var(--font-family-roboto);
+    font-size: 16px;
+    font-weight: var(--font-weight-normal);
+    border: 1px solid var(--white1-color-ffffff);
+    transition: all 0.3s;
+}
+
+.navbar-button-2{
+    margin-left: 17px;
+    margin-right: 6px;
+    color: var(--white1-color-ffffff);
+    background-color: var(--green2-color-05cb95);
+    border: 1px solid var(--green2-color-05cb95);
+    border-radius: 8px;
+    padding: 14px 17px 16px 18px;
+    cursor: pointer;
+    font-family: var(--font-family-roboto);
+    font-size: 16px;
+    font-weight: var(--font-weight-normal);
+    transition: all 0.3s;
+}

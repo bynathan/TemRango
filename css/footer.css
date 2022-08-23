@@ -1,0 +1,209 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-infos{
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 42px;
+}
+
+/* FOOTER LOGO */
+
+.footer-logo{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer-logo img{
+    width: 200px;
+    height: 66.39px;
+
+}
+
+/* FOOTER TITLES */
+
+.footer-text{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-normal);
+    color: var(--gray5-color-373938);
+    margin-bottom: 15px;
+    margin-right: 67px;
+}
+
+/* FOOTER BUTTONS */
+
+.footer-buttons{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.footer-button-1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 156px;
+    height: 54px;
+    border: 1px solid var(--gray5-color-373938);
+    border-radius: 10px;
+    background-color: var(--white1-color-ffffff);
+    cursor: pointer;
+    margin-right: 28px;
+    transition: all 0.3s;
+}
+
+.footer-button-1 h2{
+    font-size: 13px;
+    line-height: 17px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-normal);
+    color: var(--gray5-color-373938);
+}
+
+.footer-button-1 h1{
+    font-size: 18px;
+    line-height: 19px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-bold);
+    color: var(--gray5-color-373938);
+}
+
+.footer-button-1 svg{
+    margin-top: 1px;
+    margin-right: 12px;
+    margin-left: 11px;
+}
+
+.footer-button-2{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 156px;
+    height: 54px;
+    border: 1px solid var(--gray5-color-373938);
+    border-radius: 10px;
+    background-color: var(--white1-color-ffffff);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-button-2 p{
+    font-size: 16px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-normal);
+    color: var(--gray5-color-373938);
+}
+
+.footer-buttons svg{
+    margin-left: 15px;
+    margin-right: 10.7px;
+}
+
+/* FOOTER INFOS REDES */
+
+.footer-infos-redes a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-infos-redes svg{
+    margin-right: 20px;
+    margin-top: 35px;
+    transition: all 0.3s;
+}
+
+.footer-infos-redes h1{
+    font-size: 20px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-medium);
+    color: var(--dark-color-292f31);
+}
+
+/* FOOTER INFOS MENU */
+
+.footer-infos-menu{
+    display: flex;
+    margin-left: 127px;
+}
+
+.margin-left-127px{
+    margin-left: 127px;
+}
+
+.footer-infos-menu-style a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-infos-menu-style h1{
+    font-size: 20px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-medium);
+    color: var(--dark-color-292f31);
+    margin-bottom: 35px;
+}
+
+.footer-infos-menu-style h2{
+    font-size: 16px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-normal);
+    color: var(--gray4-color-575757);
+    margin-bottom: 9px;
+    transition: color 0.3s;
+}
+
+.footer-copy{
+    font-size: 16px;
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-normal);
+    color: var(--gray4-color-575757);
+    margin-bottom: 23px;
+    margin-left: 3px;
+}
+
+/* FOOTER FIXED */
+
+.circle-whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--green2-color-05cb95);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.circle-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--dark-color-292f31);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.footer-fixed{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    bottom: 23px;
+    right: 49px;
+}
+
+#ancora{
+    transition-timing-function: ease-in-out;
+    transition-duration: 5s;
+}

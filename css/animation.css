@@ -1,0 +1,44 @@
+/* NAVBAR INFOS */
+
+.navbar-infos-options:hover{
+    border: 1px solid var(--green2-color-05cb95);
+}
+
+/* NAVBAR BUTTONS */
+
+.navbar-button-1:hover{
+    background-color: var(--white1-color-ffffff);
+    border: 1px solid var(--green2-color-05cb95);
+    color: var(--green2-color-05cb95);
+}
+
+.navbar-button-2:hover{
+    background-color: var(--white1-color-ffffff);
+    color: var(--green2-color-05cb95);
+}
+
+/* FOOTER BUTTONS */
+
+.footer-button-1:hover{
+    background-color: var(--green2-color-05cb95);
+}
+
+.footer-button-2:hover{
+    background-color: var(--green2-color-05cb95);
+}
+
+/* FOOTER INFOS */
+
+.footer-infos-redes svg:hover{
+    transform: scale(1.2);
+}
+
+.footer-infos-menu-style h2:hover{
+    color: var(--green2-color-05cb95);
+}
+
+/* FOOTER FIXED */
+
+.circle-whatsapp:hover{
+    background-color: var(--dark-color-292f31);
+}

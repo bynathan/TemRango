@@ -1,0 +1,32 @@
+:root {
+    /* FONTS */
+
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-quicksand: 'Quicksand', sans-serif;
+    --font-weight-normal: normal;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    /* SIZES */
+
+    --font-size-14: 14px;
+    --font-size-18: 18px;
+    --font-size-24: 24px;
+    --font-size-56: 56px;
+
+    /* CORES */
+
+    --white1-color-ffffff: #FFFFFF;
+    --white2-color-f1f1f1: #F1F1F1;
+    --white3-color-f8f8f8: #F8F8F8;
+    --white4-color-f6f6f6: #f6f6f6;
+    --gray1-color-d5d5d5: #D5D5D5;
+    --gray2-color-949494: #949494;
+    --gray3-color-757575: #757575;
+    --gray4-color-575757: #575757;
+    --gray5-color-373938: #373938;
+    --dark-color-292f31: #292F31;
+    --green1-color-EFFBF7: #EFFBF7;
+    --green2-color-05cb95: #05CB95;
+}
