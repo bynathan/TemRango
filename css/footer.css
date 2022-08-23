@@ -202,8 +202,3 @@
     bottom: 23px;
     right: 49px;
 }
-
-#ancora{
-    transition-timing-function: ease-in-out;
-    transition-duration: 5s;
-}
