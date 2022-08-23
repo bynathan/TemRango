@@ -70,10 +70,10 @@ const containerMenuHamb = document.getElementsByClassName('menu-hamb')[0];
 const navbarInfos = document.getElementsByClassName('navbar-infos')[0];
 const navbarButtons = document.getElementsByClassName('navbar-buttons')[0];
 const navbar = document.getElementById('navbar');
-const body = document.getElementById('body')
-const main = document.getElementById('main')
-const section = document.getElementById('section')
-const footer = document.getElementById('footer')
+// const body = document.getElementById('body')
+// const main = document.getElementById('main')
+// const section = document.getElementById('section')
+// const footer = document.getElementById('footer')
 
 menuHamb.addEventListener('click', () => {
     containerMenuHamb.classList.toggle('on');
@@ -81,7 +81,7 @@ menuHamb.addEventListener('click', () => {
     navbarInfos.classList.toggle('on');
     navbar.classList.toggle('on');
     body.classList.toggle('on');
-    main.classList.toggle('scroll');
-    section.classList.toggle('scroll');
-    footer.classList.toggle('scroll');
+//     main.classList.toggle('scroll');
+//     section.classList.toggle('scroll');
+//     footer.classList.toggle('scroll');
 });
