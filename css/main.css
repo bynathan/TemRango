@@ -31,6 +31,13 @@
     line-height: 22px;
 }
 
+.main-desc-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 /* CARDS */
 
 
@@ -203,7 +210,7 @@
     width: 280px;
     height: 56px;
     z-index: -1;
-    top: 484px;
+    top: 500px;
     position: absolute;
 }
 
