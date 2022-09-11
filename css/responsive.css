@@ -1,3 +1,5 @@
+/* RESPONSIVO */
+
 @media(max-width: 1175px){
     #main-card-grid{
         display: flex;
