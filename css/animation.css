@@ -1,15 +1,32 @@
 /* NAVBAR INFOS */
 
 .navbar-infos-options:hover{
-    border: 1px solid var(--green2-color-05cb95);
+    border: 1px solid #EBF6F3;
+    background-color: #EBF6F3;
+}
+
+.navbar-infos-options.selected:hover{
+    border: 1px solid #05cb95;
+}
+
+.navbar-infos-options.selected svg{
+    transform: translateY(0px);
+}
+
+.navbar-infos-options svg{
+    transform: translateY(-10px);
+    transition: .2s;
+}
+
+.navbar-infos-options:hover svg{
+    transform: translateY(0px);
 }
 
 /* NAVBAR BUTTONS */
 
 .navbar-button-1:hover{
-    background-color: var(--white1-color-ffffff);
-    border: 1px solid var(--green2-color-05cb95);
-    color: var(--green2-color-05cb95);
+    background-color: #05cb95;
+    color: #fff;
 }
 
 .navbar-button-2:hover{
@@ -21,10 +38,12 @@
 
 .footer-button-1:hover{
     background-color: var(--green2-color-05cb95);
+    border: 1px solid var(--green2-color-05cb95);
 }
 
 .footer-button-2:hover{
     background-color: var(--green2-color-05cb95);
+    border: 1px solid var(--green2-color-05cb95);
 }
 
 /* FOOTER INFOS */

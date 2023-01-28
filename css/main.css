@@ -65,6 +65,7 @@
     padding: 38px 26px 21px 26px;
     margin-bottom: 51px;
     background-color: var(--white1-color-ffffff);
+    transition: border .2s;
 }
 
 

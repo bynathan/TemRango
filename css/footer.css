@@ -54,7 +54,7 @@
     background-color: var(--white1-color-ffffff);
     cursor: pointer;
     margin-right: 28px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .footer-button-1 h2{
@@ -89,7 +89,7 @@
     border-radius: 10px;
     background-color: var(--white1-color-ffffff);
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .footer-button-2 p{
@@ -114,7 +114,7 @@
 .footer-infos-redes svg{
     margin-right: 20px;
     margin-top: 35px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .footer-infos-redes h1{
@@ -154,7 +154,7 @@
     font-weight: var(--font-weight-normal);
     color: var(--gray4-color-575757);
     margin-bottom: 9px;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .footer-copy{
@@ -176,7 +176,7 @@
     height: 70px;
     border-radius: 50%;
     background-color: var(--green2-color-05cb95);
-    transition: all 0.3s;
+    transition: all 0.2s;
     cursor: pointer;
 }
 
@@ -188,7 +188,7 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--dark-color-292f31);
-    transition: all 0.3s;
+    transition: all 0.2s;
     cursor: pointer;
     margin-left: 30px;
     margin-top: 15px;

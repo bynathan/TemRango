@@ -1,7 +1,7 @@
 // ALERTA PARA O GITHUB COMENTE ESSES CODIGOS
 
-window.confirm('Clique em OK, para vizualizar o Projeto.')
-window.confirm('Este é o link para visualizar o diretorio do Projeto no GitHub:  https://github.com/bynathan/TemRango')
+// window.confirm('Clique em OK, para vizualizar o Projeto.')
+// window.confirm('Este é o link para visualizar o diretorio do Projeto no GitHub:  https://github.com/bynathan/TemRango')
 
 // SCRIPT NAVBAR
 

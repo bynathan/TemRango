@@ -20,7 +20,7 @@
     text-decoration: none;
     color: var(--dark-color-292f31);
     font-family: var(--font-family-roboto);
-    font-weight: var(--font-weight-normal);
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -31,7 +31,6 @@
     justify-content: center;
     width: 100px;
     height: 90px;
-    padding-top: 10px;
 }
 
 .selected span{
@@ -43,13 +42,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    padding: 16px;
     width: 100px;
     height: 92px;
     border: 1px solid #05cb9500;
     border-radius: 0px 0px 15px 15px;
-    transition: border 0.3s;
+    transition: all 0.2s;
     cursor: pointer;
+}
+
+.navbar-infos-options svg{
+    stroke: #FFF;
+}
+
+.navbar-infos-options:hover svg, .navbar-infos-options:hover span{
+    stroke: #05cb95;
+    color: #05cb95;
+}
+
+.navbar-infos-options.selected:hover svg, .navbar-infos-options.selected:hover span{
+    stroke: #fff;
+    color: #fff;
+}
+
+.navbar-infos-options span{
+    padding-top: 8.11px;
+    transform: all .2s;
 }
 
 .navbar-infos-options.selected{
@@ -64,7 +83,8 @@
 }
 
 .navbar-infos-options svg{
-    display: none;
+    display: flex;
+    margin-top: 8px;
 }
 
 .navbar-infos-options.selected svg{
@@ -104,32 +124,41 @@
 
 .navbar-button-1{
     margin-left: 10px;
-    color: var(--dark-color-292f31);
-    background-color: var(--white2-color-f1f1f1);
-    border: none;
-    border-radius: 8px;
-    padding: 14px 38px 14px 38px;
+    color: #05cb95;
+    background-color: transparent;
+    border: 2px solid #05CB95;
+    border-radius: 30px;
     cursor: pointer;
     font-family: var(--font-family-roboto);
     font-size: 16px;
     font-weight: var(--font-weight-normal);
-    border: 1px solid var(--white1-color-ffffff);
-    transition: all 0.3s;
+    transition: all 0.2s;
+    width: 118px;
+    height: 45px;
 }
 
 .navbar-button-2{
-    margin-left: 17px;
     margin-right: 6px;
-    color: var(--white1-color-ffffff);
-    background-color: var(--green2-color-05cb95);
-    border: 1px solid var(--green2-color-05cb95);
-    border-radius: 8px;
-    padding: 14px 17px 16px 18px;
+    color: #292F31;
+    background-color: transparent;
+    border: 1px solid transparent;
     cursor: pointer;
     font-family: var(--font-family-roboto);
     font-size: 16px;
     font-weight: var(--font-weight-normal);
-    transition: all 0.3s;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button-2 svg{
+    stroke: #292F31;
+    margin: 0 10px 0 0;
+    transition: all .2s;
+}
+
+.navbar-button-2:hover svg{
+    stroke: #05cb95;
 }
 
 .menu-hamb{
